@@ -1,0 +1,30 @@
+@mixin textarea{
+    width: 100%;
+    padding: 19px;
+    border: none;
+    border-bottom: 1px solid #3333334f;
+    margin-bottom: 30px;
+}
+@mixin comment-button {
+    font-size: 18px;
+    padding: 7px 14px;
+    color: #fff;
+    background-color: #1977B8;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+    transition: .3s;
+    text-transform: capitalize;
+    &:hover{
+        background-color: #286090;
+    }
+}
+@mixin common-button {
+    background-color: #9ea0f6;
+    color: #fff;
+    transition: .5s;
+    text-transform: capitalize;
+    &:hover{
+        background-color: #286090;
+    }
+}

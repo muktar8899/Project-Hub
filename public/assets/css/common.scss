@@ -1,0 +1,46 @@
+.nav-link:focus, .nav-link:hover {
+    padding: 0px;
+}
+.nav-link:focus, .nav-link {
+    text-decoration: none;
+    padding: 0px;
+}
+
+// Font Size
+$pera-font:15px;
+$font-weight: 500;
+// Color
+$title:#333300;
+$pera:#868585;
+
+h1,h2,h3,h4,h5{
+    font-family: 'Oswald', sans-serif;
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+}
+p{
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 15px;
+    color:$pera;
+    font-weight: 500;
+}
+
+
+
+.section-title{
+    margin: 50px 0px; 
+    h2{
+        color: $title;
+        text-transform: capitalize;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+   p{
+        line-height: 24px;
+        font-size: $pera-font;
+        color: $pera;
+        font-weight: $font-weight;
+        text-transform: capitalize;
+    }
+}
